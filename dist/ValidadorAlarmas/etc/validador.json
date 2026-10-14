@@ -1,0 +1,22 @@
+{
+  "envFile": "",
+  "logPath": "./log",
+  "logLevel": "info",
+  "reportsPath": "./reports",
+  "report": { "format": "md", "namePattern": "{AID}_{FECHA_HORA}" },
+  "maxArchivosPorGestorTipo": 5,
+  "timeouts": { "connectSeconds": 10, "querySeconds": 30 },
+  "knownHosts": "",
+  "esquema": {
+    "tablaCiclos": "CONCELDAS.PCA_CICLOS",
+    "colFechaCiclo": "ciclo",
+    "tablaAlarmas": "o_m.PCA_ALARMAS_{TEC}",
+    "tablaPanel": "o_m.PCA_PANEL_{TEC}",
+    "tablaHistorico": "o_m.PCA_HISTORICO_{TEC}",
+    "colAidAlarmas": "AID",
+    "colAidPanel": "AID",
+    "colAidHistorico": "AID",
+    "colMotivo": "MOTIVO",
+    "colFin": "fin"
+  }
+}
